@@ -1,5 +1,5 @@
 # 🐰 About Me:
-👨🏽‍💻 Who is Otavio? A person focused on goals, responsible, with team spirit, seeking to expand knowledges, learning new technologies, improving skills every day ;<br>
+👨🏽‍💻 I'm focused on goals, responsible, with team spirit, seeking to expand knowledges, learning new technologies, improving skills every day ;<br>
 🔭 I’m currently working with ReactJS ;<br>
 🚀 I’m currently learning more about Performance ;<br>
 ⚡ Fun fact: I have 3 Rabbits, and I really love rabbits. On all my pessoal projects I put some easteregg about them 💛 ;
