@@ -1,8 +1,8 @@
-# 🐰 About Me:
-👨🏽‍💻 I'm focused on goals, responsible, with team spirit, seeking to expand knowledges, learning new technologies, improving skills every day ;<br>
-🔭 I’m currently working with ReactJS ;<br>
-🚀 I’m currently learning more about Performance ;<br>
-⚡ Fun fact: I have 4 Rabbits.
+# 🐰 About Me
+👨🏽‍💻 Goal-oriented, responsible, and a team player, eager to expand knowledge, learn new technologies, and continuously improve skills.
+🔭 Currently working with ReactJS
+🚀 Learning more about Performance Optimization
+⚡ Fun fact: I have 4 rabbits 🐇
 
 
 ## 🌐 Socials:
