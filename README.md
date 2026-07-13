@@ -22,9 +22,9 @@
 ╰──────────────────────────────────────────────────────────────────────────────────────╯
 ```
 <p align="center">
-[![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/otaviozanonn)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/otaxvio)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/otavio-zanon-820512183)
+  [![Facebook](https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white)](https://facebook.com/otaviozanonn)
+  [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/otaxvio)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/otavio-zanon-820512183)
 </p>
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=otaviozanon.otaviozanon&left_color=darkgray&right_color=yellow" />
