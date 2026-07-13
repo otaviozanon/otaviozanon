@@ -1,4 +1,4 @@
-```
+```shell
 $ whoami
 > Otavio Zanon — Frontend Developer from Brazil
 
@@ -11,7 +11,7 @@ $ cat about.txt
 
 ---
 
-```
+```shell
 $ ls tech-stack/
 
 languages/    JavaScript · TypeScript · Python
@@ -25,10 +25,11 @@ tools/        Git
 
 ---
 
-```
+```shell
 $ ls socials/
-> [Facebook](https://facebook.com/otaviozanonn) · [LinkedIn](https://linkedin.com/in/otavio-zanon-820512183) · [Instagram](https://instagram.com/otaxvio)
 ```
+
+[Facebook](https://facebook.com/otaviozanonn) · [LinkedIn](https://linkedin.com/in/otavio-zanon-820512183) · [Instagram](https://instagram.com/otaxvio)
 
 <p align="center">
   <img src="https://visitor-badge.laobi.icu/badge?page_id=otaviozanon.otaviozanon&left_color=darkgray&right_color=yellow" />
