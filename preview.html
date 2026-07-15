@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Otavio Zanon - Terminal README Preview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: #0a0a0a;
+    color: #c0c0c0;
+    font-family: 'Consolas', 'Courier New', 'Fira Code', monospace;
+    font-size: 13px;
+    line-height: 1.45;
+    padding: 32px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  .terminal-wrap { max-width: 940px; width: 100%; }
+  .window {
+    border: 1px solid #3a3a3a;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background: #0d0d0d;
+    overflow: hidden;
+  }
+  .titlebar {
+    background: #1a1a1a;
+    padding: 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .dot { width: 10px; height: 10px; border-radius: 50%; }
+  .dot.r { background: #ff5f57; }
+  .dot.y { background: #febc2e; }
+  .dot.g { background: #28c840; }
+  .titlebar span.title { color: #666; font-size: 12px; margin-left: 6px; }
+  .body { padding: 14px 18px; }
+  pre { font-family: inherit; margin: 0; white-space: pre-wrap; color: #c0c0c0; }
+  .prompt { color: #00cc7a; }
+  .cmd { color: #e0e0e0; }
+  .output { color: #888888; }
+  .dir { color: #4499ff; font-weight: bold; }
+  a { color: #88aaff; text-decoration: none; }
+  a:hover { color: #aaccff; text-decoration: underline; }
+  .socials { text-align: center; margin: 0 0 20px 0; }
+  .socials a { display: inline-block; margin: 0 3px; }
+  .socials img { height: 22px; }
+  .visitor { text-align: center; margin-top: 24px; opacity: 0.35; }
+  .visitor:hover { opacity: 1; }
+  .cursor::after { content: "█"; color: #00cc7a; animation: blink 1s step-end infinite; }
+  @keyframes blink { 50% { opacity: 0; } }
+</style>
+</head>
+<body>
+<div class="terminal-wrap">
+
+<div class="window">
+  <div class="titlebar">
+    <span class="dot r"></span><span class="dot y"></span><span class="dot g"></span>
+    <span class="title">otavio@github ~ bash</span>
+  </div>
+  <div class="body">
+<pre>
+<span class="output">▸ Otavio Zanon — Frontend Developer from Brazil</span>
+
+<span class="prompt">otavio@github:~$</span> <span class="cmd">cat about.txt</span><span class="cursor"></span>
+<span class="output">▸ Goal-oriented, responsible, and a team player.
+▸ Currently working with ReactJS.
+▸ Learning about Performance Optimization.
+▸ Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
+
+<span class="prompt">otavio@github:~$</span> <span class="cmd">ls tech-stack/</span>
+
+<span class="dir">▸ languages/</span>  <span class="output">JavaScript · TypeScript · Python</span>
+<span class="dir">▸ frontend/</span>   <span class="output">React · Angular · Next.js · Redux</span>
+<span class="dir">▸ styling/</span>    <span class="output">Bootstrap · TailwindCSS · StyledComponents · AntDesign · Less</span>
+<span class="dir">▸ backend/</span>    <span class="output">Node.js · Python · C#</span>
+<span class="dir">▸ databases/</span>  <span class="output">MySQL · Postgres · SQLite · SQLServer · Supabase · Firebase</span>
+<span class="dir">▸ cloud/</span>      <span class="output">AWS · Azure · Cloudflare · Vercel · Render</span>
+<span class="dir">▸ tools/</span>      <span class="output">Git</span>
+</pre>
+  </div>
+</div>
+
+<div class="socials">
+  <a href="https://facebook.com/otaviozanonn" target="_blank"><img src="https://img.shields.io/badge/Facebook-%231877F2.svg?logo=Facebook&logoColor=white" /></a>
+  <a href="https://instagram.com/otaxvio" target="_blank"><img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/otavio-zanon-820512183" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white" /></a>
+</div>
+
+<div class="visitor">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=otaviozanon.otaviozanon&left_color=darkgray&right_color=yellow" />
+</div>
+
+</div>
+</body>
+</html>
