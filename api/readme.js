@@ -133,7 +133,7 @@ export default function handler(req, res) {
   const theme = searchParams.get('theme') || 'dark';
 
   const sections = {
-    terminal: { content: terminal, width: 840, height: 440 },
+    terminal: { content: terminal, width: 840, height: 460 },
     socials: { content: socials, width: 480, height: 40 },
     visitor: { content: visitor, width: 300, height: 30 },
   };
