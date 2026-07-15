@@ -8,7 +8,7 @@ const COLORS = {
     prompt: '#00cc7a',
     cmd: '#e0e0e0',
     output: '#888',
-    dir: '#4499ff',
+    dir: '#e09040',
     dotR: '#ff5f57',
     dotY: '#febc2e',
     dotG: '#28c840',
@@ -22,7 +22,7 @@ const COLORS = {
     prompt: '#007a3d',
     cmd: '#111',
     output: '#666',
-    dir: '#2266cc',
+    dir: '#c07020',
     dotR: '#ff5f57',
     dotY: '#febc2e',
     dotG: '#28c840',
@@ -74,13 +74,13 @@ function terminal(theme) {
     </div>
     <div style="padding:16px 18px;">
       <pre style="font-family:inherit;margin:0;white-space:pre-wrap;color:${c.text};font-size:13px;line-height:1.55;">
-<span style="color:${c.output};">▸ Otavio Zanon — Frontend Developer from Brazil</span>
+<span style="color:${c.cmd};font-size:14px;font-weight:bold;">Otavio Zanon - Frontend Developer</span>
 
 <span style="color:${c.prompt};">otavio@github:~$</span> <span style="color:${c.cmd};">cat about.txt</span>
-<span style="color:${c.output};">▸ Goal-oriented, responsible, and a team player.
-▸ Currently working with ReactJS.
-▸ Learning about Performance Optimization.
-▸ Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
+<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Goal-oriented, responsible, and a team player.</span>
+<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Currently working with ReactJS.</span>
+<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Learning about Performance Optimization.</span>
+<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
 
 <span style="color:${c.prompt};">otavio@github:~$</span> <span style="color:${c.cmd};">ls tech-stack/</span>
 
