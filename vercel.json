@@ -1,4 +1,11 @@
 {
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://github.com/otaviozanon",
+      "permanent": true
+    }
+  ],
   "functions": {
     "api/readme.js": {
       "memory": 256,
