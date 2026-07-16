@@ -29,13 +29,13 @@ const COLORS = {
   },
 };
 
-function esc(str) {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
-}
+const STYLES = {
+  header:  'font-size:16px;font-weight:bold;',
+  prompt:  'font-size:15px;',
+  bullet:  'font-size:14px;',
+  output:  'font-size:14px;',
+  dir:     'font-size:14px;font-weight:bold;',
+};
 
 function terminal(theme) {
   const c = COLORS[theme] || COLORS.dark;
@@ -52,6 +52,14 @@ function terminal(theme) {
   padding: 24px 0;
   box-sizing: border-box;
 ">
+<style>
+  .hdr { ${STYLES.header} color:${c.cmd}; }
+  .pr  { ${STYLES.prompt} color:${c.prompt}; }
+  .cmd { ${STYLES.prompt} color:${c.cmd}; }
+  .out { ${STYLES.output} color:${c.output}; }
+  .dir { ${STYLES.dir} color:${c.dir}; }
+  .blt { ${STYLES.bullet} color:${c.dir}; }
+</style>
 <div style="max-width:820px;width:100%;">
   <div style="
     border: 1px solid ${c.border};
@@ -73,24 +81,23 @@ function terminal(theme) {
       <span style="color:${c.titleText};font-size:12px;margin-left:6px;">otavio@github ~ bash</span>
     </div>
     <div style="padding:16px 18px;">
-      <pre style="font-family:inherit;margin:0;white-space:pre-wrap;color:${c.text};font-size:13px;line-height:1.55;">
-<span style="color:${c.cmd};font-size:14px;font-weight:bold;">Otavio Zanon - Frontend Developer</span>
+      <pre style="font-family:inherit;margin:0;white-space:pre-wrap;color:${c.text};">
+<span class="hdr">Otavio Zanon - Frontend Developer</span>
 
-<span style="color:${c.prompt};">otavio@github:~$</span> <span style="color:${c.cmd};">cat about.txt</span>
-<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Goal-oriented, responsible, and a team player.</span>
-<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Currently working with ReactJS.</span>
-<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Learning about Performance Optimization.</span>
-<span style="color:${c.dir};">▸</span> <span style="color:${c.output};">Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
+<span class="pr">otavio@github:~$</span> <span class="cmd">cat about.txt</span>
+<span class="blt">▸</span> <span class="out">Goal-oriented, responsible, and a team player.</span>
+<span class="blt">▸</span> <span class="out">Currently working with ReactJS.</span>
+<span class="blt">▸</span> <span class="out">Learning about Performance Optimization.</span>
+<span class="blt">▸</span> <span class="out">Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
 
-<span style="color:${c.prompt};">otavio@github:~$</span> <span style="color:${c.cmd};">ls tech-stack/</span>
-
-<span style="color:${c.dir};font-weight:bold;">▸ languages/</span>  <span style="color:${c.output};">JavaScript · TypeScript · Python</span>
-<span style="color:${c.dir};font-weight:bold;">▸ frontend/</span>   <span style="color:${c.output};">React · Angular · Next.js · Redux</span>
-<span style="color:${c.dir};font-weight:bold;">▸ styling/</span>    <span style="color:${c.output};">Bootstrap · TailwindCSS · StyledComponents · AntDesign · Less</span>
-<span style="color:${c.dir};font-weight:bold;">▸ backend/</span>    <span style="color:${c.output};">Node.js · Python · C#</span>
-<span style="color:${c.dir};font-weight:bold;">▸ databases/</span>  <span style="color:${c.output};">MySQL · Postgres · SQLite · SQLServer · Supabase · Firebase</span>
-<span style="color:${c.dir};font-weight:bold;">▸ cloud/</span>      <span style="color:${c.output};">AWS · Azure · Cloudflare · Vercel · Render</span>
-<span style="color:${c.dir};font-weight:bold;">▸ tools/</span>      <span style="color:${c.output};">Git</span>
+<span class="pr">otavio@github:~$</span> <span class="cmd">ls tech-stack/</span>
+<span class="dir">▸ languages/</span> <span class="out">JavaScript · TypeScript · Python</span>
+<span class="dir">▸ frontend/</span> <span class="out">React · Angular · Next.js · Redux</span>
+<span class="dir">▸ styling/</span> <span class="out">Bootstrap · TailwindCSS · StyledComponents · AntDesign · Less</span>
+<span class="dir">▸ backend/</span> <span class="out">Node.js · Python · C#</span>
+<span class="dir">▸ databases/</span> <span class="out">MySQL · Postgres · SQLite · SQLServer · Supabase · Firebase</span>
+<span class="dir">▸ cloud/</span> <span class="out">AWS · Azure · Cloudflare · Vercel · Render</span>
+<span class="dir">▸ tools/</span> <span class="out">Git</span>
       </pre>
     </div>
   </div>

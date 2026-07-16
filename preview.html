@@ -40,19 +40,19 @@
   .titlebar span.title { color: #666; font-size: 12px; margin-left: 6px; }
   .body { padding: 14px 18px; }
   pre { font-family: inherit; margin: 0; white-space: pre-wrap; color: #c0c0c0; }
-  .prompt { color: #00cc7a; }
-  .cmd { color: #e0e0e0; }
-  .output { color: #888888; }
-  .dir { color: #4499ff; font-weight: bold; }
-  a { color: #88aaff; text-decoration: none; }
-  a:hover { color: #aaccff; text-decoration: underline; }
+
+  .hdr { font-size: 16px; font-weight: bold; color: #e0e0e0; }
+  .pr  { font-size: 15px; color: #00cc7a; }
+  .cmd { font-size: 15px; color: #e0e0e0; }
+  .out { font-size: 14px; color: #888; }
+  .dir { font-size: 14px; font-weight: bold; color: #e09040; }
+  .blt { font-size: 14px; color: #e09040; }
+
   .socials { text-align: center; margin: 0 0 20px 0; }
   .socials a { display: inline-block; margin: 0 3px; }
   .socials img { height: 22px; }
   .visitor { text-align: center; margin-top: 24px; opacity: 0.35; }
   .visitor:hover { opacity: 1; }
-  .cursor::after { content: "█"; color: #00cc7a; animation: blink 1s step-end infinite; }
-  @keyframes blink { 50% { opacity: 0; } }
 </style>
 </head>
 <body>
@@ -65,23 +65,22 @@
   </div>
   <div class="body">
 <pre>
-<span class="output">▸ Otavio Zanon — Frontend Developer from Brazil</span>
+<span class="hdr">Otavio Zanon - Frontend Developer</span>
 
-<span class="prompt">otavio@github:~$</span> <span class="cmd">cat about.txt</span><span class="cursor"></span>
-<span class="output">▸ Goal-oriented, responsible, and a team player.
-▸ Currently working with ReactJS.
-▸ Learning about Performance Optimization.
-▸ Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
+<span class="pr">otavio@github:~$</span> <span class="cmd">cat about.txt</span>
+<span class="blt">▸</span> <span class="out">Goal-oriented, responsible, and a team player.</span>
+<span class="blt">▸</span> <span class="out">Currently working with ReactJS.</span>
+<span class="blt">▸</span> <span class="out">Learning about Performance Optimization.</span>
+<span class="blt">▸</span> <span class="out">Fun fact: I have 4 rabbits. 🐇🐇🐇🐇</span>
 
-<span class="prompt">otavio@github:~$</span> <span class="cmd">ls tech-stack/</span>
-
-<span class="dir">▸ languages/</span>  <span class="output">JavaScript · TypeScript · Python</span>
-<span class="dir">▸ frontend/</span>   <span class="output">React · Angular · Next.js · Redux</span>
-<span class="dir">▸ styling/</span>    <span class="output">Bootstrap · TailwindCSS · StyledComponents · AntDesign · Less</span>
-<span class="dir">▸ backend/</span>    <span class="output">Node.js · Python · C#</span>
-<span class="dir">▸ databases/</span>  <span class="output">MySQL · Postgres · SQLite · SQLServer · Supabase · Firebase</span>
-<span class="dir">▸ cloud/</span>      <span class="output">AWS · Azure · Cloudflare · Vercel · Render</span>
-<span class="dir">▸ tools/</span>      <span class="output">Git</span>
+<span class="pr">otavio@github:~$</span> <span class="cmd">ls tech-stack/</span>
+<span class="dir">▸ languages/</span> <span class="out">JavaScript · TypeScript · Python</span>
+<span class="dir">▸ frontend/</span> <span class="out">React · Angular · Next.js · Redux</span>
+<span class="dir">▸ styling/</span> <span class="out">Bootstrap · TailwindCSS · StyledComponents · AntDesign · Less</span>
+<span class="dir">▸ backend/</span> <span class="out">Node.js · Python · C#</span>
+<span class="dir">▸ databases/</span> <span class="out">MySQL · Postgres · SQLite · SQLServer · Supabase · Firebase</span>
+<span class="dir">▸ cloud/</span> <span class="out">AWS · Azure · Cloudflare · Vercel · Render</span>
+<span class="dir">▸ tools/</span> <span class="out">Git</span>
 </pre>
   </div>
 </div>
