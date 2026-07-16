@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://otaviozanon.vercel.app/api/readme?section=terminal&theme=dark&v=3" />
-    <source media="(prefers-color-scheme: light)" srcset="https://otaviozanon.vercel.app/api/readme?section=terminal&theme=light&v=3" />
-    <img alt="Otavio Zanon terminal" src="https://otaviozanon.vercel.app/api/readme?section=terminal&theme=dark&v=3" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://ozreadme.vercel.app/api/readme?section=terminal&theme=dark&v=3" />
+    <source media="(prefers-color-scheme: light)" srcset="https://ozreadme.vercel.app/api/readme?section=terminal&theme=light&v=3" />
+    <img alt="Otavio Zanon terminal" src="https://ozreadme.vercel.app/api/readme?section=terminal&theme=dark&v=3" />
   </picture>
 </p>
 
